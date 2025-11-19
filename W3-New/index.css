@@ -1,0 +1,755 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+/* Navbar */
+
+.Navbar-wrap{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.nav-left{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+   
+
+}
+.nav-menu-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.navbar-hover div{
+    cursor: pointer;
+    width: 90px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-hover div:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+ 
+
+.nav-left img{
+    width: 40px;
+}
+
+
+.seach-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seach-box input{
+    border-radius: 15px;
+    border: 1px solid gray;
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    
+}
+
+.seach-box img{
+    margin-left: -30px;
+}
+.nav-right{
+display: flex;
+flex: 1;
+align-items: center;
+justify-content: space-around;
+
+}
+.nav-menu-wrap{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.nav-menu-wrap-right div:hover{
+    background-color: lightgray;
+    border-radius: 15px;
+    width: auto;
+    height: 30px;
+    cursor: pointer;
+}
+
+.nav-menu-wrap-right{
+     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.nav-right div{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.nav-right button{
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: small;
+}
+
+/* Learn To Code */
+
+.learnCode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 450px;
+    background-color: #282A35;
+}
+
+.learnCode h1{
+    font-size: 65px;
+    color: white;
+}
+
+.learnCode p{
+    color: #FFF4A3;
+    font-size: 20px;
+}
+.search-2nd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.learnCode input{
+    width: 400px;
+    height: 50px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    padding-left: 30px;
+    font-size: 17px;
+    border: none;
+}
+
+.learnCode button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #04AA6D;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* HTML */
+
+.html-wrap{
+    display: flex;
+    background-color:#D9EEE1 ;
+    height: 500px;
+    gap: 40px;
+}
+
+
+.html-left{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    flex: 1;
+   
+   
+}
+
+.html-left-mini-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.learn-H1{
+    font-size: 80px;
+}
+
+.learn-P{
+    font-size: 20px;
+}
+
+.green-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    background-color: #04AA6D;
+    color: white; 
+    cursor: pointer;
+}
+
+.yellow-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    background-color: #FFF4A3;
+    color: black;
+    cursor: pointer;
+}
+
+.black-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    background-color: #282A35;
+    color: white; 
+    cursor: pointer;
+}
+
+.pink-btn{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    background-color: #FFC0C7 ;
+    color: black; 
+    cursor: pointer;   
+}
+
+
+
+.html-right{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex: 1;
+}
+
+/* CSS */
+
+
+.css-wrap{
+    display: flex;
+    height: 500px;
+    background-color: #FFF4A3;
+    gap: 40px;
+}
+
+.css-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-evenly;
+}
+.css-left-mini-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.css-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: start;
+}
+
+/* JavaScript */
+
+.javascript-wrap{
+    display: flex;
+    height: 500px;
+    background-color: #282A35;
+    gap: 40px;
+}
+.java-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-evenly;
+
+}
+.java-left-mini-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.java-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: start;
+}
+
+/* Phyton */
+
+.phyton-wrap{
+    display: flex;
+    height: 500px;
+    background-color: #F3ECEA;
+    gap: 40px;
+}
+
+.phyton-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.phyton-left-mini-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.phyton-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: start;
+}
+
+/* SQL */
+
+.sql-wrapper{
+    display: flex;
+    height: 500px;
+    background-color: #96D4D4;
+    gap: 40px;
+}
+
+.sql-left{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: end;
+}
+
+.sql-left-mini-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sql-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: start;
+}
+
+ /* Grid Lsnguages */
+
+.grid-langs-wrapper{
+    
+    display: grid;
+    grid-template-areas: "a a";
+    align-items: center;
+    justify-content: center;
+    height: 870px;
+    gap: 50px;
+    background-color: #282A35;
+    padding-top: 80px;
+}
+
+.grid-langs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#FFC0C7 ;
+    width: 550px;
+    height: 220px;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+
+/* Two middle Con */
+
+.two-middle-con-wrap{
+    display: grid;
+    grid-template-areas: "a a";
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #282A35;
+    height: 300px;
+}
+
+.two-middle-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 120px;
+    background-color: #FFC0C7;
+    border-radius: 5px;
+}
+
+ /* Mini cons  */
+
+.mini-con-wrapper{
+    display: grid;
+    grid-template-areas: "a a a a";
+    justify-content: center;
+    align-items: center;
+    background-color: #282A35;
+    gap: 40px;
+}
+
+.mini-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3ECEA;
+    width: 260px;
+    height: 115px;
+    border-radius: 5px;
+}
+
+
+/* Last-lang-con  */
+
+
+.last-lang-con-wrap{
+    display: grid;
+    grid-template-areas: "a a";
+    align-items: center;
+    justify-content: center;
+    background-color: #282A35;
+    height: 750px;
+    column-gap: 40px;
+    padding-top: 50px;
+}
+
+.last-lang-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 560px;
+    height: 120px;
+    background-color: #96D4D4;
+    border-radius: 5px;
+}
+
+/* Login/SignUp page */
+
+.login-sign-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9EEE1;
+    height: 900px;
+    padding-top: 60px;
+}
+
+.login-sign-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* Code Editor */
+
+
+.code-editor-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-color: #282A35;
+    padding-top: 50px;
+}
+
+.code-editor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.code-editor div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 940px;
+    padding-top: 20px;
+    gap: 20px;
+    
+   
+}
+
+.code-editor div button{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 300px;
+ height: 40px;
+ background-color: #04AA6D;
+ color: white;
+ border: none;
+ font-size: 15px;
+ border-radius: 5px;
+}
+
+/* W3Schools Spaces */
+
+.W3Schools-spaces-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background-color: white;
+
+}
+
+.W3Schools-spaces{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 70px;
+}
+
+/* Become a Plus User */
+
+.Become-plus-user-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282A35;
+    height: 600px;
+}
+
+.Become-plus-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.plus-user-list-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.plus-user-list{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 18px;
+  
+}
+
+/* For Teachers */
+
+.For-teachers-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282A35;
+    height: 650px;
+}
+
+.for-teachers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+
+
+.for-teachers-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.for-teachers-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Color Picker */
+
+.Color-picker-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3ECEA;
+    height: 400px;
+}
+
+.color-picker{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+/* Code Game */
+
+.code-game-wrapper{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    background-color: #96D4D4;
+    height: 500px;
+}
+
+.code-game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px, 20px;
+}
+
+/* Exercises and Quizzes */
+
+.Exercises-Quizzes-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #282A35;
+}
+
+.Exercises-Quizzes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+.exer-quiz-boxes{
+    display: grid;
+    grid-template-areas:"a a" ;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.exer-quiz-boxes div{
+    width: 560px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #04AA6D;
+    border-radius: 5px;
+    font-size: 35px;
+    color: white;
+}
+
+/* Web Templates */
+
+.Web-Templates-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E7E9EB ;
+    height: 800px;
+}
+
+.Web-Templates{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 30px;
+}
