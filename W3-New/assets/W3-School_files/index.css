@@ -12,11 +12,9 @@
     width: 100%;
     height: 60px;
     position: fixed;
-    z-index: 9;
     align-items: center;
     justify-content: space-evenly;
     background-color: white;
-   
 }
 
 .nav-left {
@@ -32,7 +30,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  
 }
 
 .navbar-hover {
@@ -70,12 +67,12 @@
 }
 
 .seach-box input {
-    border-radius: 18px;
+    border-radius: 15px;
     border: 1px solid gray;
-    width: 160px;
-    height: 35px;
+    width: 150px;
+    height: 30px;
     padding-left: 10px;
-    font-style: italic;
+
 }
 
 .seach-box img {
@@ -130,39 +127,6 @@
     border-radius: 5px;
     font-size: small;
 }
-
-
-
- /* under Navbar */
-
-
-
- .under-nav-wrap{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #282A35;
-    /* position: fixed; */
-    height: 30px;
-    padding-top: 75px;
- 
- }
-
- .under-nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: scroll;
-    gap: 25px;
-    font-size: 13px;
-    color: white;
- }
-
- 
- 
-
-
-
 
 /* Learn To Code */
 
@@ -264,10 +228,6 @@
     cursor: pointer;
 }
 
-.green-btn:hover{
-    background-color: #038b59;
-}
-
 .yellow-btn {
     display: flex;
     align-items: center;
@@ -281,12 +241,6 @@
     color: black;
     cursor: pointer;
 }
-
-.yellow-btn:hover{
-    background-color: #e5da85;
-}
-
-
 
 .black-btn {
     display: flex;
@@ -302,10 +256,6 @@
     cursor: pointer;
 }
 
-.black-btn:hover{
-    background-color: #000000;
-}
-
 .pink-btn {
     display: flex;
     align-items: center;
@@ -318,10 +268,6 @@
     background-color: #FFC0C7;
     color: black;
     cursor: pointer;
-}
-
-.pink-btn:hover{
-    background-color: #dba1a7;
 }
 
 
@@ -474,7 +420,6 @@
     gap: 50px;
     background-color: #282A35;
     padding-top: 80px;
-    
 }
 
 .grid-langs {
@@ -500,7 +445,6 @@
     gap: 50px;
     background-color: #282A35;
     height: 300px;
-    cursor: pointer;
 }
 
 .two-middle-con {
@@ -522,7 +466,6 @@
     align-items: center;
     background-color: #282A35;
     gap: 40px;
-    cursor: pointer;
 }
 
 .mini-con {
@@ -548,7 +491,6 @@
     height: 750px;
     column-gap: 40px;
     padding-top: 50px;
-    cursor: pointer;
 }
 
 .last-lang-con {
@@ -592,10 +534,6 @@
     background-color: #04AA6D;
     color: white;
     cursor: pointer;
-}
-
-.sign-up:hover{
-    background-color: #038b59;
 }
 
 
@@ -642,11 +580,6 @@
     border: none;
     font-size: 15px;
     border-radius: 5px;
-    cursor: pointer;
-}
-
-.code-editor div button:hover{
-    background-color: #038b59;
 }
 
 /* W3Schools Spaces */
@@ -754,7 +687,6 @@
     align-items: center;
     justify-content: center;
     padding-top: 20px;
-    cursor: pointer;
 }
 
 /* Code Game */
@@ -802,7 +734,6 @@
     align-items: center;
     justify-content: center;
     gap: 100px;
-    cursor: pointer;
 }
 
 .exer-quiz-boxes div {
@@ -833,25 +764,6 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
-    cursor: pointer;
-}
-
-.sign-upp{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 600px; 
-    font-size: 18px;
-    background-color: #282A35;
-    border-radius: 25px;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-
-.sign-upp:hover{
-    background-color: #000000;
 }
 
 /* Kickstart */
@@ -905,40 +817,23 @@
 
 /* how-to-section */
 
-.how-to-section-wrapper {
+.how-to-section-wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
-    height: 1000px;
+    height: 700px;
 }
 
-.how-to-section {
+.how-to-section{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 230px;
     padding-bottom: 50px;
-
-}
-.sign-up1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 400px; 
-    font-size: 18px;
-    background-color: #282A35;
-    border-radius: 25px;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
-
-.sign-up1:hover{
-    background-color: #04AA6D;
-}
+    
+} 
 
 /* Footer */
 
@@ -949,7 +844,7 @@
     justify-content: center;
     gap: 40px;
     background-color: #282A35;
-    height: 150px;
+    height: 10px;
     padding-top: 30px;
 
 
@@ -1046,28 +941,25 @@
 
 
 }
-
-.f-3rd-1-p :hover {
+.f-3rd-1-p :hover{
+    color: #FFF4A3;
+    cursor: pointer;
+}
+.f-3rd-2-p  :hover{
+    color: #FFF4A3;
+    cursor: pointer;
+}
+.f-3rd-3-p :hover{
     color: #FFF4A3;
     cursor: pointer;
 }
 
-.f-3rd-2-p :hover {
+.f-3rd-4-p :hover{
     color: #FFF4A3;
     cursor: pointer;
 }
 
-.f-3rd-3-p :hover {
-    color: #FFF4A3;
-    cursor: pointer;
-}
-
-.f-3rd-4-p :hover {
-    color: #FFF4A3;
-    cursor: pointer;
-}
-
-.footer-4th-row {
+.footer-4th-row{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1076,8 +968,7 @@
     color: #ddd;
     cursor: pointer;
 }
-
-.f-4-row-hover {
+.f-4-row-hover{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1086,19 +977,18 @@
     color: #ddd;
 }
 
-.footer-4th-row img {
+.footer-4th-row img{
     width: 200px;
 }
-
-.footer-4th-row p {
+.footer-4th-row p{
     font-size: 15px;
 }
 
-.f-4-row-hover :hover {
+.f-4-row-hover :hover{
     color: #FFF4A3;
 }
 
-.footer-5th-row {
+.footer-5th-row{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1108,6 +998,6 @@
     color: #ddd;
     font-size: 12px;
     padding: 20px 20px;
-    cursor: pointer;
-
+   cursor: pointer;
+    
 }
